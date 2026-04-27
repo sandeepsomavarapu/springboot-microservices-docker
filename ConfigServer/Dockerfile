@@ -4,7 +4,7 @@ FROM alpine:latest
 RUN apk add --no-cache openjdk8-jre
 
 WORKDIR /app
-COPY target/*.jar app.jar
+COPY target/ConfigServer-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8888
 
