@@ -1,0 +1,224 @@
+2026-04-27T05:19:31.152+05:30  WARN 21164 --- [DeptService] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h41m24s35ms566µs800ns).
+2026-04-27T05:19:45.052+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:24:42.010+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:29:42.023+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:34:42.062+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:36:35.935+05:30  INFO 21164 --- [DeptService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 14 class path changes (0 additions, 10 deletions, 4 modifications)
+2026-04-27T05:36:35.970+05:30  INFO 21164 --- [DeptService] [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPTSERVICE with eureka with status DOWN
+2026-04-27T05:36:35.970+05:30  INFO 21164 --- [DeptService] [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248395970, current=DOWN, previous=UP]
+2026-04-27T05:36:35.972+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:36:36.010+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:36:36.027+05:30  INFO 21164 --- [DeptService] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-27T05:36:36.264+05:30  INFO 21164 --- [DeptService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-27T05:36:36.309+05:30  INFO 21164 --- [DeptService] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:36:36.355+05:30  INFO 21164 --- [DeptService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-27T05:36:36.379+05:30  INFO 21164 --- [DeptService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-27T05:36:36.385+05:30  INFO 21164 --- [DeptService] [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-04-27T05:36:39.389+05:30  INFO 21164 --- [DeptService] [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-04-27T05:36:39.443+05:30  INFO 21164 --- [DeptService] [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - deregister  status: 200
+2026-04-27T05:36:39.444+05:30  INFO 21164 --- [DeptService] [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-04-27T05:36:42.931+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : Starting DeptServiceApplication using Java 17.0.8.1 with PID 21164 (C:\Users\2383333\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Micro\DeptService\target\classes started by 2383333 in C:\Users\2383333\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Micro\DeptService)
+2026-04-27T05:36:42.932+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-27T05:36:42.935+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8711
+2026-04-27T05:36:42.935+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=DeptService, profiles=[default], label=null, version=a2555265de29b5a37aa5aa3eee7f675ae072aed2, state=
+2026-04-27T05:36:43.517+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-27T05:36:43.522+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-04-27T05:36:43.756+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9c84d3b1-ce4d-34a5-af8f-599dcc7e7b89
+2026-04-27T05:36:43.880+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-04-27T05:36:43.881+05:30  INFO 21164 --- [DeptService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-27T05:36:43.881+05:30  INFO 21164 --- [DeptService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-27T05:36:43.954+05:30  INFO 21164 --- [DeptService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1017 ms
+2026-04-27T05:36:44.074+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-27T05:36:44.134+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-27T05:36:44.138+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-27T05:36:44.225+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@894a6f8
+2026-04-27T05:36:44.225+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-27T05:36:44.228+05:30  WARN 21164 --- [DeptService] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-27T05:36:44.230+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ericsson?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: ericsson/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-27T05:36:44.268+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-27T05:36:44.269+05:30  INFO 21164 --- [DeptService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:36:44.309+05:30  WARN 21164 --- [DeptService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-27T05:36:45.292+05:30  INFO 21164 --- [DeptService] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-04-27T05:36:45.332+05:30  WARN 21164 --- [DeptService] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-04-27T05:36:45.339+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-04-27T05:36:45.377+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-04-27T05:36:45.379+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-04-27T05:36:45.381+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-04-27T05:36:45.397+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-04-27T05:36:45.397+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-04-27T05:36:45.398+05:30  INFO 21164 --- [DeptService] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-04-27T05:36:45.398+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1777248405398 with initial instances count: 3
+2026-04-27T05:36:45.401+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPTSERVICE with eureka with status UP
+2026-04-27T05:36:45.401+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248405401, current=UP, previous=STARTING]
+2026-04-27T05:36:45.401+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:36:45.409+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-04-27T05:36:45.409+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-04-27T05:36:45.416+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:36:45.685+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : Started DeptServiceApplication in 5.859 seconds (process running for 45700.034)
+2026-04-27T05:36:45.689+05:30  INFO 21164 --- [DeptService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-27T05:36:52.310+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-27T05:36:52.310+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-27T05:36:52.312+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-27T05:37:03.485+05:30  INFO 21164 --- [DeptService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (10 additions, 0 deletions, 0 modifications)
+2026-04-27T05:37:03.486+05:30  INFO 21164 --- [DeptService] [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPTSERVICE with eureka with status DOWN
+2026-04-27T05:37:03.486+05:30  INFO 21164 --- [DeptService] [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248423486, current=DOWN, previous=UP]
+2026-04-27T05:37:03.486+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:37:03.487+05:30  INFO 21164 --- [DeptService] [Thread-7] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-27T05:37:03.491+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:37:03.621+05:30  INFO 21164 --- [DeptService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-27T05:37:03.626+05:30  INFO 21164 --- [DeptService] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:37:03.627+05:30  INFO 21164 --- [DeptService] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-27T05:37:03.633+05:30  INFO 21164 --- [DeptService] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-27T05:37:03.633+05:30  INFO 21164 --- [DeptService] [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-04-27T05:37:06.634+05:30  INFO 21164 --- [DeptService] [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-04-27T05:37:06.662+05:30  INFO 21164 --- [DeptService] [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - deregister  status: 200
+2026-04-27T05:37:06.662+05:30  INFO 21164 --- [DeptService] [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-04-27T05:37:08.935+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : Starting DeptServiceApplication using Java 17.0.8.1 with PID 21164 (C:\Users\2383333\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Micro\DeptService\target\classes started by 2383333 in C:\Users\2383333\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Micro\DeptService)
+2026-04-27T05:37:08.936+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-27T05:37:08.938+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8711
+2026-04-27T05:37:08.938+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=DeptService, profiles=[default], label=null, version=a2555265de29b5a37aa5aa3eee7f675ae072aed2, state=
+2026-04-27T05:37:09.406+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-27T05:37:09.426+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2026-04-27T05:37:09.592+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0be0ee3a-cbe6-398b-a6fc-3b96691003b1
+2026-04-27T05:37:09.713+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-04-27T05:37:09.715+05:30  INFO 21164 --- [DeptService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-27T05:37:09.715+05:30  INFO 21164 --- [DeptService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-27T05:37:09.802+05:30  INFO 21164 --- [DeptService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 863 ms
+2026-04-27T05:37:09.894+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-27T05:37:09.937+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-27T05:37:09.939+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-04-27T05:37:09.990+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52cf03ec
+2026-04-27T05:37:09.990+05:30  INFO 21164 --- [DeptService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-04-27T05:37:09.992+05:30  WARN 21164 --- [DeptService] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-27T05:37:09.992+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ericsson?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: ericsson/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-27T05:37:10.109+05:30  INFO 21164 --- [DeptService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-27T05:37:10.234+05:30  INFO 21164 --- [DeptService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:37:10.336+05:30  WARN 21164 --- [DeptService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-27T05:37:10.684+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'EMPLOYEESERVICE' URL not provided. Will try picking an instance via load-balancing.
+2026-04-27T05:37:10.975+05:30  INFO 42256 --- [DeptService] [main] c.e.demo.DeptServiceApplicationTests     : Starting DeptServiceApplicationTests using Java 17.0.8.1 with PID 42256 (started by 2383333 in C:\Users\2383333\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Micro\DeptService)
+2026-04-27T05:37:10.977+05:30  INFO 42256 --- [DeptService] [main] c.e.demo.DeptServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-04-27T05:37:11.034+05:30  INFO 42256 --- [DeptService] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8711
+2026-04-27T05:37:11.034+05:30  INFO 42256 --- [DeptService] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=DeptService, profiles=[default], label=null, version=a2555265de29b5a37aa5aa3eee7f675ae072aed2, state=
+2026-04-27T05:37:11.266+05:30  INFO 21164 --- [DeptService] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-04-27T05:37:11.277+05:30  WARN 21164 --- [DeptService] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-04-27T05:37:11.282+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-04-27T05:37:11.320+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-04-27T05:37:11.324+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-04-27T05:37:11.325+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-04-27T05:37:11.339+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-04-27T05:37:11.340+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-04-27T05:37:11.340+05:30  INFO 21164 --- [DeptService] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-04-27T05:37:11.340+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1777248431340 with initial instances count: 3
+2026-04-27T05:37:11.342+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPTSERVICE with eureka with status UP
+2026-04-27T05:37:11.342+05:30  INFO 21164 --- [DeptService] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248431342, current=UP, previous=STARTING]
+2026-04-27T05:37:11.342+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:37:11.348+05:30  INFO 21164 --- [DeptService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-04-27T05:37:11.351+05:30  INFO 21164 --- [DeptService] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2026-04-27T05:37:11.361+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:37:11.628+05:30  INFO 21164 --- [DeptService] [restartedMain] c.example.demo.DeptServiceApplication    : Started DeptServiceApplication in 4.846 seconds (process running for 45725.977)
+2026-04-27T05:37:11.631+05:30  INFO 21164 --- [DeptService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-27T05:37:12.426+05:30  INFO 42256 --- [DeptService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-27T05:37:12.728+05:30  INFO 42256 --- [DeptService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 281 ms. Found 1 JPA repository interface.
+2026-04-27T05:37:13.423+05:30  INFO 42256 --- [DeptService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4e2bf17c-176d-357f-88e8-89ce18b0e631
+2026-04-27T05:37:14.153+05:30  INFO 42256 --- [DeptService] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-27T05:37:14.332+05:30  INFO 42256 --- [DeptService] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-27T05:37:15.824+05:30  INFO 42256 --- [DeptService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-27T05:37:15.914+05:30  INFO 42256 --- [DeptService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-27T05:37:16.426+05:30  INFO 42256 --- [DeptService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d96b8fb
+2026-04-27T05:37:16.429+05:30  INFO 42256 --- [DeptService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-27T05:37:16.534+05:30  WARN 42256 --- [DeptService] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-27T05:37:16.572+05:30  INFO 42256 --- [DeptService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ericsson?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: ericsson/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-27T05:37:17.920+05:30  INFO 42256 --- [DeptService] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-27T05:37:18.006+05:30  INFO 42256 --- [DeptService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:37:18.139+05:30  INFO 42256 --- [DeptService] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-27T05:37:18.463+05:30  WARN 42256 --- [DeptService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-27T05:37:19.015+05:30  INFO 42256 --- [DeptService] [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'EMPLOYEESERVICE' URL not provided. Will try picking an instance via load-balancing.
+2026-04-27T05:37:20.551+05:30  INFO 42256 --- [DeptService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-04-27T05:37:20.628+05:30  WARN 42256 --- [DeptService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-04-27T05:37:20.646+05:30  INFO 42256 --- [DeptService] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-04-27T05:37:20.751+05:30  INFO 42256 --- [DeptService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-04-27T05:37:20.793+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-04-27T05:37:20.806+05:30  INFO 42256 --- [DeptService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:37:20.826+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-04-27T05:37:20.827+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-04-27T05:37:21.455+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-04-27T05:37:21.458+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-04-27T05:37:21.462+05:30  INFO 42256 --- [DeptService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-04-27T05:37:21.463+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1777248441463 with initial instances count: 4
+2026-04-27T05:37:21.470+05:30  INFO 42256 --- [DeptService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPTSERVICE with eureka with status UP
+2026-04-27T05:37:21.471+05:30  INFO 42256 --- [DeptService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248441471, current=UP, previous=STARTING]
+2026-04-27T05:37:21.476+05:30  INFO 42256 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:37:21.491+05:30  INFO 42256 --- [DeptService] [main] c.e.demo.DeptServiceApplicationTests     : Started DeptServiceApplicationTests in 13.876 seconds (process running for 15.776)
+2026-04-27T05:37:21.550+05:30  INFO 42256 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:37:22.310+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-27T05:37:22.310+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-27T05:37:22.313+05:30  INFO 21164 --- [DeptService] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-04-27T05:37:22.793+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPTSERVICE with eureka with status DOWN
+2026-04-27T05:37:22.793+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1777248442793, current=DOWN, previous=UP]
+2026-04-27T05:37:22.794+05:30  INFO 42256 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:37:22.799+05:30  INFO 42256 --- [DeptService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:37:22.803+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-27T05:37:22.807+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-27T05:37:22.819+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-27T05:37:22.821+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-04-27T05:37:25.832+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-04-27T05:37:25.851+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - deregister  status: 200
+2026-04-27T05:37:25.852+05:30  INFO 42256 --- [DeptService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-04-27T05:37:41.381+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - Re-registering apps/DEPTSERVICE
+2026-04-27T05:37:41.381+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082: registering service...
+2026-04-27T05:37:41.385+05:30  INFO 21164 --- [DeptService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPTSERVICE/LTIN645816.cts.com:DeptService:8082 - registration status: 204
+2026-04-27T05:42:11.333+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:47:11.336+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T05:52:11.351+05:30  INFO 21164 --- [DeptService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
